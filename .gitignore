@@ -1,0 +1,12 @@
+# node
+node_modules/
+package-lock.json
+
+# tools
+ngrok*
+
+# environment variables
+.env*
+
+# docker volumes
+db/
