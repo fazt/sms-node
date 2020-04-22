@@ -2,7 +2,7 @@
 this is an simple example to send and recive SMS using Node, Twilio, Mongodb, and Socket.io
 ![](./screenshot.png)
 
-# Software Needed
+# Required Software
 * Nodejs
 * Mongodb
 * ngrok (in development). Twilio needs a domain to reach our server.
@@ -43,7 +43,9 @@ npm start # or npm run dev (to execute with nodemon)
 * https://stackoverflow.com/questions/59690923/handlebars-access-has-been-denied-to-resolve-the-property-from-because-it-is
 
 # TODO
-* add authentication
-* handle multiple sockets connection
-* integrate Docker 
-* add tests
+[ ] add authentication
+[ ] handle multiple sockets connection
+[ ] integrate Docker 
+[ ] add tests
+[ ] create a contact list
+[ ] pick a user from the message history to send a message
