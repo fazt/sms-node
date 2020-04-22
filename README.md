@@ -8,13 +8,18 @@ this is an simple example to send and recive SMS using Node, Twilio, Mongodb, an
 * ngrok (in development). Twilio needs a domain to reach our server.
 
 # Installation
+clone the repo
+```shell
+git clone https://github.com/FaztTech/sms-node
+cd sms-node
+```
 create a file with the name `.env` in the root project with the following Environment variables:
 ```text
 TWILIO_ACCOUNT_SID=<YOUR TWILIO ACCOUNT SID>
 TWILIO_AUTH_TOKEN=<YOUR TWILIO AUTH TOKEN>
 PHONE_NUMBER=<THE TRIAL PHONE NUMBER OF YOUR TWILIO PROJECT>
 ```
-then you can run:
+then execute:
 ```shell
 npm i
 npm start # or npm run dev (to execute with nodemon)
